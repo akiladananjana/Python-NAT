@@ -7,6 +7,7 @@ Static NAT maps network traffic from a static external IP address to an internal
 python3 <*Inside-Local-IP*> <*Inside-Global-IP*>
   
 Inside-Local-IP = The IP address of the device in Inside Network.
+
 Inside-Global-IP = The IP address of the outside interface.
 
 Tested with Ubuntu 20.04 with Python 3.8.2
