@@ -15,4 +15,4 @@ Inside-Global-IP = The IP address of the outside interface.
 Tested with Ubuntu 20.04 with Python 3.8.2
 
 # Limitations
-This utility only works with ICMP traffic because of I alter the TCP/UDP headers. Then TCP/UDP checksum validation fails.
+This utility only works with ICMP traffic because of I alter the TCP/UDP headers. Then TCP/UDP checksum validation fails. Also I hardcoded the ens33 and ens38 interfaces, change them to yours. 
